@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable 'name' and set it to 'Dane'.
+// We check to see if 'name' is equal to 'Mary', it isnt.
+// Since it isnt, we console.log "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable and call it 'secret'; there is no value to secret. 
+// We then make a variable called 'code' and give it a value of 123.  
+// If code is equal to '123', the value of 'secret' is given 'super; and code equals code*2 (123 *2); then if code is great then 250, then 'secret' is given the value of 'duper'
+//Since code is great then 250, we console.log superduper. 
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make 3 variables.  First we make the variable 'isStudent' and give the value of 'true'; We make a second variable of 'age' and give it a value of '34'; we then make a variable of 'zip' and give it a value of '55407'
+// if isStudent is true AND zip is greater then 8000, the in the console log it will read 'You're on the West Coast!'; if not, then if isStudent is flase or the age is less then 30, it will console.log 'what are your hobbies?'
+// if not, and if isStudent is true, it will console.log 'Welcome to Prime!'
+//if none of the above isnt correct, then it will console.log 'How about the weather?'
+//when the code is ran, it will console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -129,6 +130,8 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX - The directions say colorOne is 'blue' and colorTwo is 'red'. whe we check to see if it is true, we add colorTwo = purple as well. 
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +146,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX - in the if/else statment, we need to change the '||' (which means 'or') to '&&'(which means 'and') as the directions say to make the code correct.  
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +160,8 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//FIX - We change the if/else statement to age >= minAge as the explanation above states.   
 
 /*
 let age = 21;
